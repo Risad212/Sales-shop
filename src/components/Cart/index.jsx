@@ -1,3 +1,4 @@
+'use client'
 import React, { useContext, useState } from 'react';
 import { StrogeData } from '../../Context';
 import AddToCartProduct from './AddToCartProduct';

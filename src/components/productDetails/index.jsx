@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useContext } from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams } from 'next/link';
 import './style.css';
 import Rating from '../rating';
 import { StrogeData } from '../../Context';

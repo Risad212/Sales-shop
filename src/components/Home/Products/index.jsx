@@ -1,7 +1,7 @@
+'use client'
 import axios from 'axios';
 import React, { useEffect, useState } from 'react';
 import Product from '../../Product';
-import SkeletonLoad from '../../Common/SkeletonLoad';
 import TitleBorder from '../../Common/TitleBorder';
 
 const Products = () => {
@@ -39,9 +39,6 @@ const Products = () => {
                   </>
                 )
               })
-            }
-            {
-              isLoading && <SkeletonLoad type="product"/>
             }
         </div>
       </div>

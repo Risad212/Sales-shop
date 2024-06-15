@@ -1,7 +1,8 @@
+'use client'
 import React, { useContext, useEffect, useState } from "react";
 import { StrogeData } from "../../Context";
-import { Link } from "react-router-dom";
-import Logo from "@public/media/logo.png";
+import { Link } from "next/link";
+import Logo from "@/media/logo.png";
 
 const Header = () => {
   const { product, wishCart } = useContext(StrogeData);

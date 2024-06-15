@@ -1,5 +1,6 @@
+"use client"
 import React, { useContext, useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link } from 'next/link';
 import { StrogeData } from '../../../Context';
 import { BlogData } from '../../../fakeData/FakeData';
 

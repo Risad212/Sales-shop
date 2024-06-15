@@ -1,9 +1,8 @@
 import React, { useContext, useState } from "react";
-import { Link, useLocation } from "react-router-dom";
+import Link from "next/link";
 import { StrogeData } from "../../Context";
 
 const Product = ({ item }) => {
-  let location = useLocation();
   const [saved, setSaved] = useState("fa-regular");
   const { product, wishCart } = useContext(StrogeData);
   const [cartCount, setCartCount] = product;

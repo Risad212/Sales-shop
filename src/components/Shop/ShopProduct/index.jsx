@@ -1,6 +1,5 @@
 import React from "react";
 import Product from "../../Product";
-import SkeletonLoad from "../../Common/SkeletonLoad";
 
 const ShopProduct = ({ allProduct, loadStatus }) => {
   return (
@@ -14,7 +13,6 @@ const ShopProduct = ({ allProduct, loadStatus }) => {
               </>
             );
           })}
-        {loadStatus && <SkeletonLoad type="product" />}
       </div>
     </>
   );
